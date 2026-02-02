@@ -17,7 +17,7 @@ struct MovieGenre {
     let id = UUID()
     let name: String
     let description: String
-    let movies: [Movie] // <-- Добавили список фильмов
+    let movies: [Movie]
 }
 
 struct GenreSection {
